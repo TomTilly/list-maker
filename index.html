@@ -1,21 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<!-- 
-	 Potential code to add to boilerplate **
-	
-	- Facebook/Twitter meta tags
-	- Bootstrap links (style and javascript)
-	- jQuery link
-	- FontAwesome link (maybe in an optional comment for useful references/links)
- !-->
-
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>Title of Site | Placeholder</title>
+	<title>List Maker</title>
 	<meta name="author" content="Tom Tillistrand">
-	<meta name="description" content="Placeholder for description of site">
+	<meta name="description" content="A simple list maker.">
 	<!-- basic favicon -->
 	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
 	<link rel="stylesheet" href="css/stylesheet.css" type="text/css">
@@ -24,9 +14,39 @@
 <body>
 
 <div class="wrapper">
-	
+	<header>
+		<h1>ListMaker+</h1>
+		<a href="#">Ricky Bobby</a><!-- username placeholder -->
+	</header>
+	<div class="main-wrapper">
+		<aside>
+			<ul>
+				<li>List #1</li>
+				<li>List #2</li>
+				<li class="active">Grocery List</li>
+				<li>List #4</li>
+				<li>List #5</li>
+				<li>Start New List...</li>
+			</ul>
+		</aside>
+		<main>
+			<section class="list">
+				<h2>Grocery List</h2>
+				<ul>
+					<li><span class="checkbox"></span><input type="text" value="Eggs"></li>
+					<li><span class="checkbox"></span><input type="text" value="Milk"></li>
+					<li><span class="checkbox"></span><input type="text" value="Bread"></li>
+					<li><span class="checkbox"></span><input type="text" value="Broccoli"></li>
+					<li><span class="checkbox"></span><input type="text" value="Apples"></li>
+					<li><span class="checkbox"></span><input type="text" value="Peaches"></li>
+					<li><span class="checkbox"></span><input type="text" value="Chicken"></li>
+					<li><span class="checkbox"></span><input type="text" value="Rice"></li>
+				</ul>
+			</section>
+		</main>
+	</div>
 </div>
 
-<script src="javascript.js"></script>
+<script src="javascript.js" type="text/html"></script>
 </body>
 </html>
