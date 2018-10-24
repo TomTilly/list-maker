@@ -44,19 +44,24 @@ body {
 .wrapper {
 	display: flex;
 	flex-direction: column;
+	min-height: 100%;
 }
 
 header {
 	background: #373737;
+	padding: 1em;
+}
+
+h1 {
+	margin: 0;
 }
 
 .main-wrapper {
 	display: flex;
-	flex-direction: row;
-	align-items: stretch;
+	flex-grow: 1;
 }
 
 aside {
 	background: #364052;
-	flex-basis: 300px;
+	width: 300px;
 }
