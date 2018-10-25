@@ -48,17 +48,42 @@ body {
 	min-height: 100%;
 }
 
+a {
+	color: #CD3B46;
+}
+
+/* header */
+
 header {
 	background: #373737;
 	padding: 1em;
 	display: flex;
 	justify-content: space-between;
+	align-items: center;
 }
 
 h1 {
 	margin: 0;
 	color: #878787;
 }
+
+header a {
+	color: rgba(225, 93, 99, 0.7);
+	font-size: 1.2em;
+	text-decoration: none;
+}
+
+header a:hover {
+	text-decoration: underline;
+}
+
+.fa-caret-down {
+	color: rgba(225, 93, 99, 0.7);
+	font-size: 1.2em;
+	margin-left: .2em;
+}
+
+/* main content area */
 
 .main-wrapper {
 	display: flex;
