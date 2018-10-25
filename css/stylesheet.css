@@ -49,8 +49,10 @@ body {
 }
 
 header {
-	background: #222836;
+	background: #373737;
 	padding: 1em;
+	display: flex;
+	justify-content: space-between;
 }
 
 h1 {
@@ -64,6 +66,11 @@ h1 {
 }
 
 aside {
-	background: #364052;
+	background: #F2F2EA;
 	width: 300px;
+	border-right: 4px solid rgba(30, 30, 30, 0.1);
+}
+
+main {
+
 }
