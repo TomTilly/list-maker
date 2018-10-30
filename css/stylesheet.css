@@ -55,7 +55,7 @@ a {
 /* header */
 
 header {
-	background: #373737;
+	background: #FAD088;
 	padding: 1.5em 1em;
 	display: flex;
 	justify-content: space-between;
@@ -64,7 +64,7 @@ header {
 
 h1 {
 	margin: 0;
-	color: #878787;
+	color: #D48654;
 }
 
 header a {
@@ -91,7 +91,7 @@ header a:hover {
 }
 
 aside {
-	background: #F2F2EA;
+	background: #FFF0D5;
 	width: 300px;
 	border-right: 4px solid rgba(30, 30, 30, 0.1);
 }
@@ -106,18 +106,18 @@ aside li {
 	font-size: 1em;
 	text-transform: uppercase;
 	letter-spacing: .05em;
-	padding: 1.5em 1em;
+	padding: 1em 1em;
 	font-weight: bold;
 	text-shadow: 2px 2px 3px rgba(30,30,30,0.1);
-	color: rgba(30,30,30,0.6);
+	color: #FAB588;
 	transition: background .2s linear;
-	border-bottom: 2px solid rgba(30,30,30,0.1);
+	border-bottom: 2px solid #FFD0B1;
 }
 
 aside li:hover, aside li.active {
-	background-color: rgba(0,0,0,0.1);
+	background-color: #FFE2B1;
 }
 
 aside li.new-list-btn {
-	background-color: #7be092;
+	background-color: #D48654;
 }
