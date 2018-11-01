@@ -60,7 +60,7 @@ header {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-	border-bottom: #CCCCCC 1px solid;
+	border-bottom: #DDDDDD 2px solid;
 }
 
 h1 {
@@ -97,9 +97,9 @@ header a:hover {
 }
 
 aside {
-	background: #FFF0D5;
+	background: #7194AB;
 	width: 300px;
-	border-right: 4px solid rgba(30, 30, 30, 0.1);
+	border-right: 4px solid #DDDDDD;
 }
 
 ul {
@@ -115,15 +115,16 @@ aside li {
 	padding: 1em 1em;
 	font-weight: bold;
 	text-shadow: 2px 2px 3px rgba(30,30,30,0.1);
-	color: #FAB588;
+	color: white;
 	transition: background .2s linear;
-	border-bottom: 2px solid #FFD0B1;
+	border-bottom: 1px solid #DDDDDD;
 }
 
 aside li:hover, aside li.active {
-	background-color: #FFE2B1;
+	background-color: #47718D;
 }
 
 aside li.new-list-btn {
-	background-color: #D48654;
+	color: #7194AB;
+	background-color: white;
 }
